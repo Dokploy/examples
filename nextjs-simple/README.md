@@ -1,8 +1,6 @@
-# Dokploy Example
+# Nextjs Example
 
 This repository contains an example of nextjs application that is deployed on Dokploy.
-
-You have two options to get started:
 
 
 1. **Use Git Provider in Your Application**:
