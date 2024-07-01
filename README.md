@@ -17,6 +17,7 @@ This repository contains examples of how to deploy applications using Dokploy.
 - [x] AstroJS
 - [x] Astro SSR
 - [x] Go Fiber
+- [x] NestJS
 
 
 ---
