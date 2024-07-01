@@ -6,7 +6,7 @@ This repository contains an example of AstroJS application that is deployed on D
 1. **Use Git Provider in Your Application**:
    - Repository: `https://github.com/Dokploy/examples.git`
    - Branch: `main`
-   - Build path: `/vuejs-simple`
+   - Build path: `/astro-ssr`
 
 2. **Add Environment Variables**:
 - Navigate to the "Environments" tab and add the following variable:
