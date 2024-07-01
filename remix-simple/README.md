@@ -8,10 +8,10 @@ This repository contains an example of remix application that is deployed on Dok
    - Branch: `main`
    - Build path: `/remix-simple`
 
-4. **Click on Deploy**:
+2. **Click on Deploy**:
    - Deploy your application by clicking the deploy button.
 
-5. **Generate a Domain**:
+3. **Generate a Domain**:
     - Click on generate domain button.
     - A new domain will be generated for you.
     - You can use this domain to access your application.
