@@ -3,9 +3,14 @@
 ---
 This repository contains examples of how to deploy applications using Dokploy.
 
-
-- Django
-- Flask
-- FastAPI
-- React(coming soon)
-- NextJS(coming soon)
+- [x] Django
+- [x] Flask
+- [x] Lit
+- [x] NextJS
+- [x] Preact
+- [x] Qwik
+- [x] Remix
+- [x] SolidJS
+- [x] Svelte
+- [x] Vite
+- [x] VueJS
