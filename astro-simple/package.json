@@ -1,0 +1,20 @@
+{
+  "name": "nebulous-neptune",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^3.1.1",
+    "@astrojs/rss": "^4.0.6",
+    "@astrojs/sitemap": "^3.1.6",
+    "astro": "^4.11.0",
+    "@astrojs/check": "^0.7.0",
+    "typescript": "^5.5.2"
+  }
+}
