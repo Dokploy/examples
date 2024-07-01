@@ -1,12 +1,12 @@
-# Svelte Example
+# Qwikjs Example
 
-This repository contains an example of Svelte application that is deployed on Dokploy.
+This repository contains an example of Qwikjs application that is deployed on Dokploy.
 
 
 1. **Use Git Provider in Your Application**:
    - Repository: `https://github.com/Dokploy/examples.git`
    - Branch: `main`
-   - Build path: `/svelte-simple`
+   - Build path: `/qwik`
 
 2. **Add Environment Variables**:
 - Navigate to the "Environments" tab and add the following variable:

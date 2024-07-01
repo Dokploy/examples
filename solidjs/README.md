@@ -1,17 +1,17 @@
-# Preact Example
+# Solidjs Example
 
-This repository contains an example of Preact application that is deployed on Dokploy.
+This repository contains an example of Solidjs application that is deployed on Dokploy.
 
 
 1. **Use Git Provider in Your Application**:
    - Repository: `https://github.com/Dokploy/examples.git`
    - Branch: `main`
-   - Build path: `/preact-simple`
+   - Build path: `/solidjs`
 
 2. **Add Environment Variables**:
 - Navigate to the "Environments" tab and add the following variable:
    ```plaintext
-   NIXPACKS_START_CMD="pnpm run preview"
+   NIXPACKS_START_CMD="pnpm run serve"
    ```
 
 3. **Click on Deploy**:

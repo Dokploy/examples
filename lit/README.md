@@ -6,7 +6,7 @@ This repository contains an example of Lit application that is deployed on Dokpl
 1. **Use Git Provider in Your Application**:
    - Repository: `https://github.com/Dokploy/examples.git`
    - Branch: `main`
-   - Build path: `/lit-simple`
+   - Build path: `/lit`
 
 2. **Add Environment Variables**:
 - Navigate to the "Environments" tab and add the following variable:

@@ -1,17 +1,17 @@
-# Solidjs Example
+# Vuejs Example
 
-This repository contains an example of Solidjs application that is deployed on Dokploy.
+This repository contains an example of vuejs application that is deployed on Dokploy.
 
 
 1. **Use Git Provider in Your Application**:
    - Repository: `https://github.com/Dokploy/examples.git`
    - Branch: `main`
-   - Build path: `/solidjs-simple`
+   - Build path: `/vuejs`
 
 2. **Add Environment Variables**:
 - Navigate to the "Environments" tab and add the following variable:
    ```plaintext
-   NIXPACKS_START_CMD="pnpm run serve"
+   NIXPACKS_START_CMD="pnpm run preview"
    ```
 
 3. **Click on Deploy**:

@@ -15,6 +15,8 @@ This repository contains examples of how to deploy applications using Dokploy.
 - [x] Vite
 - [x] VueJS
 - [x] AstroJS
+- [x] Astro SSR
 - [x] Go Fiber
+
 
 ---
