@@ -16,5 +16,9 @@ export default defineConfig({
 		ssr: {
 			noExternal: ['path-to-regexp'],
 		  },
+		preview: {
+			port: 3000,
+			host: true
+		}
 	}
 });
