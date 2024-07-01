@@ -1,5 +1,7 @@
-module goapi.railway.app
+// +heroku goVersion 1.16
 
-go 1.21.7
+module fiber
 
-require github.com/julienschmidt/httprouter v1.3.0
+go 1.16
+
+require github.com/gofiber/fiber/v2 v2.42.0
