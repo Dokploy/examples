@@ -1,29 +1,31 @@
-# Create T3 App
+# T3 App Example
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This repository contains an example of T3 application with mysql database that is deployed on Dokploy.
 
-## What's next? How do I make an app with this?
+1. **Use Git Provider in Your Application**:
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+   - Repository: `https://github.com/Dokploy/examples.git`
+   - Branch: `main`
+   - Build path: `/t3`
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+2. **Create a MySQL Database**:
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+   - Enter to the database and copy the Internal Connection URL.
 
-## Learn More
+3. **Add Environment Variables**:
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- Navigate to the "Environments" tab and add the following variable:
+  ```plaintext
+  DATABASE_URL="the-database-url-you-copied-from-the-previous-step"
+  ```
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+3. **Click on Deploy**:
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+   - Deploy your application by clicking the deploy button.
 
-## How do I deploy this?
+4. **Generate a Domain**:
+   - Click on generate domain button.
+   - A new domain will be generated for you.
+   - You can use this domain to access your application.
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+If you need further assistance, join our [Discord server](https://discord.com/invite/2tBnJ3jDJc).
