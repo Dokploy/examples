@@ -1,0 +1,13 @@
+{
+  "version": "6",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1720850249392,
+      "tag": "0000_foamy_korg",
+      "breakpoints": true
+    }
+  ]
+}
