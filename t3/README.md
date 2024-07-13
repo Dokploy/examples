@@ -12,7 +12,7 @@ This repository contains an example of T3 application with mysql database that i
 
    - Enter to the database and copy the Internal Connection URL.
 
-3. **Add Environment Variables**:
+3. **Add Environment Variables to your Application**:
 
 - Navigate to the "Environments" tab and add the following variable:
   ```plaintext
