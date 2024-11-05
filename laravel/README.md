@@ -2,6 +2,10 @@
 
 This repository is an example Laravel application, set up for easy deployment using [Nixpacks](https://nixpacks.com). Laravel provides a simple and minimal starting point for building a Laravel application with basic authentication. The container for this ONLY contains the Laravel application, and you will need to set up a database and other services separately.
 
+## Port exports
+
+Set `Ports Exposes` to `80`.
+
 ## Environment Variables
 
 Make sure to set the following environment variables in your `.env` -file or your deployment tool:
