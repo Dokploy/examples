@@ -5,7 +5,7 @@ This repository contains an example of a Nuxt application that is deployed on Do
 - With server side rendering
 - As a static site
 
-All example assume you use `Nixpacks` as the build type.
+All examples assume you use `Nixpacks` as the build type.
 
 ## Server side rendering
 
