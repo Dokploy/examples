@@ -14,11 +14,11 @@ This repository contains examples of how to deploy applications using Dokploy.
 - [x] Svelte
 - [x] Vite
 - [x] VueJS
+- [x] Nuxt
 - [x] AstroJS
 - [x] Astro SSR
 - [x] Go Fiber
 - [x] NestJS
 - [x] T3 App
-
 
 ---
