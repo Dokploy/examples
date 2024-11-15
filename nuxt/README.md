@@ -42,10 +42,10 @@ All examples assume you use `Nixpacks` as the build type.
 - Navigate to the "Environments" tab and add the following variable:
 
    ```plaintext
-   NIXPACKS_BUILD_CMD="npm run generate" 
+   NIXPACKS_BUILD_CMD="pnpm run generate" 
    ```
 
-3. **Set the publish publish directory**:
+3. **Set the publish directory**:
 
 - Ensure you set it to `dist/`. Note that there is no dot before `dist`!
 
