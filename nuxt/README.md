@@ -42,7 +42,7 @@ All examples assume you use `Nixpacks` as the build type.
 - Navigate to the "Environments" tab and add the following variable:
 
    ```plaintext
-   NIXPACKS_BUILD_CMD="pnpm run generate" 
+   NIXPACKS_BUILD_CMD="pnpm generate" 
    ```
 
 3. **Set the publish directory**:
