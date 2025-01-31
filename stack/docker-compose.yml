@@ -4,8 +4,6 @@ version: '3.3'
 services:
   whoami:
     image: traefik/whoami # Servicio de prueba
-    env_file:
-      - .env
     environment:
       - PRUEBA
     deploy:
