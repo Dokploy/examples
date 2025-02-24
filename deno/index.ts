@@ -1,10 +1,24 @@
-export function add(a: number, b: number): number {
-  return a + b;
-}
+import "jsr:@std/dotenv/load";
+import { serveFile } from "jsr:@std/http/file-server";
 
-// Learn more at https://docs.deno.com/runtime/manual/examples/module_metadata#concepts
-if (import.meta.main) {
-  console.log("Add 2 + 3 =", add(2, 3));
-}
+const PORT = Deno.env.get("PORT") || 8000;
 
-Deno.serve({ hostname: "0.0.0.0", port: 8000 }, () => new Response("Hello, world!"));
+const handler = async (req: Request): Promise<Response> => {
+  const url = new URL(req.url);
+
+  if (url.pathname === "/") {
+    return await serveFile(req, "./public/index.html");
+  } else if (url.pathname === "/greet") {
+    const greeting = Deno.env.get("GREETING") || "Hello from Deno 2!";
+    return new Response(greeting);
+  } else {
+    return new Response("Not Found", { status: 404 });
+  }
+};
+
+// Error handling
+try {
+  Deno.serve({ port: Number(PORT) }, handler);
+} catch (err) {
+  console.error("Error starting the server:", err);
+}
