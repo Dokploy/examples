@@ -7,4 +7,4 @@ if (import.meta.main) {
   console.log("Add 2 + 3 =", add(2, 3));
 }
 
-Deno.serve(() => new Response("Hello, world!"));
+Deno.serve({ hostname: "0.0.0.0", port: 8000 }, () => new Response("Hello, world!"));
