@@ -1,4 +1,3 @@
-import "jsr:@std/dotenv/load";
 import { serveFile } from "jsr:@std/http/file-server";
 
 const PORT = Deno.env.get("PORT") || 8000;
