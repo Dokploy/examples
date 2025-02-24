@@ -8,16 +8,10 @@ This repository contains an example of AstroJS application that is deployed on D
    - Branch: `main`
    - Build path: `/astro-ssr`
 
-2. **Add Environment Variables**:
-- Navigate to the "Environments" tab and add the following variable:
-   ```plaintext
-   NIXPACKS_START_CMD="pnpm run preview"
-   ```
-
-3. **Click on Deploy**:
+2. **Click on Deploy**:
    - Deploy your application by clicking the deploy button.
 
-4. **Generate a Domain**:
+3. **Generate a Domain**:
     - Click on generate domain button.
     - A new domain will be generated for you.
     - You can use this domain to access your application.

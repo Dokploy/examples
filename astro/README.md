@@ -7,12 +7,7 @@ This repository contains an example of AstroJS application that is deployed on D
    - Repository: `https://github.com/Dokploy/examples.git`
    - Branch: `main`
    - Build path: `/astro`
-
-2. **Add Environment Variables**:
-- Navigate to the "Environments" tab and add the following variable:
-   ```plaintext
-   NIXPACKS_START_CMD="pnpm run preview"
-   ```
+   - Publish Directory: `./dist` (Nixpacks)
 
 3. **Click on Deploy**:
    - Deploy your application by clicking the deploy button.
@@ -20,6 +15,7 @@ This repository contains an example of AstroJS application that is deployed on D
 4. **Generate a Domain**:
     - Click on generate domain button.
     - A new domain will be generated for you.
+    - Set Port `80`
     - You can use this domain to access your application.
 
     
