@@ -13,6 +13,9 @@
     "check-types": {
       "dependsOn": ["^check-types"]
     },
+    "start": {
+      "dependsOn": ["^start"]
+    },
     "dev": {
       "cache": false,
       "persistent": true
