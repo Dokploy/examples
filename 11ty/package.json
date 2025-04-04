@@ -1,0 +1,15 @@
+{
+  "name": "11ty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
