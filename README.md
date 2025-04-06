@@ -3,23 +3,24 @@
 ---
 This repository contains examples of how to deploy applications using Dokploy.
 
+- [x] 11ty
+- [x] Astro
+- [x] Astro SSR
 - [x] Django
 - [x] Flask
+- [x] Go Fiber
 - [x] Lit
+- [x] NestJS
 - [x] NextJS
+- [x] Nuxt
 - [x] Preact
 - [x] Qwik
 - [x] Remix
 - [x] SolidJS
 - [x] Svelte
-- [x] Vite
-- [x] VueJS
-- [x] Nuxt
-- [x] AstroJS
-- [x] Astro SSR
-- [x] Go Fiber
-- [x] NestJS
 - [x] T3 App
 - [x] Turborepo
+- [x] Vite
+- [x] VueJS
 
 ---
