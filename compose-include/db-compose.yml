@@ -1,0 +1,12 @@
+services:
+  db:
+    image: postgres:latest  # Usa la imagen precreada de PostgreSQL
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mydatabase
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
