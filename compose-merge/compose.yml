@@ -1,13 +1,7 @@
 services:
-  web-service:
-    extends:
-      file: common-services.yml  # Apunta al archivo común
-      service: base-app  # Usa el servicio base
-    environment:
-      - ENVIRONMENT=production  # Sobrescribe o agrega configuración
-
-  worker-service:
-    extends:
-      file: common-services.yml
-      service: base-app
-    command: ["/bin/sh", "-c", "while true; do echo 'Worker running'; sleep 10; done"]  # Cambia el comando
+  webapp:
+    image: nginx:latest  # Imagen base
+    ports:
+      - "80"  # Puerto expuesto
+    volumes:
+      - ./app:/usr/share/nginx/html  # Volumen para archivos

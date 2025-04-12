@@ -1,0 +1,6 @@
+services:
+  webapp:
+    environment:
+      - DEBUG=1  # Agrega una variable de entorno
+    ports:
+      - "80"  # Agrega un nuevo puerto (se concatenará con el original)
