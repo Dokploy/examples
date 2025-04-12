@@ -1,5 +1,5 @@
 include:
-  - db-compose.yaml  # Incluye la configuración de la base de datos
+  - db-compose.yml  # Incluye la configuración de la base de datos
 
 services:
   web:
