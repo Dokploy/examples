@@ -5,6 +5,6 @@ services:
   web:
     image: nginx:latest  # Usa la imagen precreada de Nginx
     ports:
-      - "80:80"
+      - "80"
     depends_on:
       - db  # Depende del servicio de base de datos
