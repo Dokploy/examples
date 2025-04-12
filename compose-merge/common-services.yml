@@ -2,4 +2,4 @@ services:
   base-app:
     image: nginx:latest  # Imagen base
     ports:
-      - "80:80"  # Puerto expuesto
+      - "80"  # Puerto expuesto
