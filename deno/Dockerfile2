@@ -1,0 +1,9 @@
+FROM alpine:latest
+
+ARG CACHE_BUST
+
+RUN --mount=type=secret,id=MESSAGE \
+  echo "Secret contents (mounted): $(cat /run/secrets/MESSAGE)" \
+  && sleep 10
+
+RUN echo -n "Secret file "; if [ -e /run/secrets/MESSAGE ]; then echo "mounted ❌"; else echo "unmounted ✅"; fi; sleep 10
