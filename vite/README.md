@@ -15,7 +15,7 @@ This repository contains an example of vuejs application that is deployed on Dok
 3. **Generate a Domain**:
     - Click on generate domain button.
     - A new domain will be generated for you.
-    - Set Port `80`
+    - Set Port `3000`
     - You can use this domain to access your application.
 
     
