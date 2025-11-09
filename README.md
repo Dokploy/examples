@@ -24,5 +24,4 @@ This repository contains examples of how to deploy applications using Dokploy.
 - [x] Tanstack
 - [x] Vite
 - [x] VueJS
-
 ---
