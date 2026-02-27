@@ -24,3 +24,4 @@ This repository contains examples of how to deploy applications using Dokploy.
 - [x] Vite
 - [x] VueJS
 ---
+
