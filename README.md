@@ -6,6 +6,7 @@ This repository contains examples of how to deploy applications using Dokploy.
 - [x] Astro
 - [x] Astro SSR
 - [x] Django
+- [x] Farm.js
 - [x] Flask
 - [x] Go Fiber
 - [x] Lit

@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Farm and deployment output
+.farm/
+.output/
+.vercel/
+dist/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Local databases
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# Logs and TypeScript cache
+*.log
+*.tsbuildinfo
